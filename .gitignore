@@ -1,0 +1,4 @@
+db.sqlite3
+geckdriver.log
+__pycache__
+*.pyc
