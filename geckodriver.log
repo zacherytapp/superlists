@@ -366,3 +366,44 @@
 1513369863265	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
 1513369863313	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
 1513369863409	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1513614089589	geckodriver	INFO	geckodriver 0.18.0
+1513614089596	geckodriver	INFO	Listening on 127.0.0.1:50665
+1513614090277	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+error: XDG_RUNTIME_DIR not set in the environment.
+Error: cannot open display: :0
+1513614115970	geckodriver	INFO	geckodriver 0.18.0
+1513614115973	geckodriver	INFO	Listening on 127.0.0.1:50703
+1513614116125	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1513614118654	Marionette	INFO	Enabled via --marionette
+
+(firefox:204): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:204): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:204): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:204): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:204): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:204): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:259): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:259): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:259): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:259): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:259): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:259): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1513614121223	Marionette	INFO	Listening on port 50707
+1513614121574	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513614121629	Marionette	DEBUG	Register listener.js for window 2147483649
+1513614121652	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513614121704	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513614121704	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513614121709	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1513614121712	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
