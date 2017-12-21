@@ -1279,3 +1279,63 @@ Error: cannot open display: :0
 1513796965646	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1513796965652	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:56353/"
 1513796965705	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:56353/"
+1513874276146	geckodriver	INFO	geckodriver 0.18.0
+1513874276152	geckodriver	INFO	Listening on 127.0.0.1:63152
+1513874276839	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1513874280138	Marionette	INFO	Enabled via --marionette
+1513874282884	Marionette	INFO	Listening on port 63156
+1513874283386	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513874283438	Marionette	DEBUG	Register listener.js for window 2147483649
+1513874283471	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513874283518	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513874283518	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513874283524	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:63151/"
+1513874283572	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:63151/"
+1513874294353	geckodriver	INFO	geckodriver 0.18.0
+1513874294356	geckodriver	INFO	Listening on 127.0.0.1:63214
+1513874295013	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1513874297205	Marionette	INFO	Enabled via --marionette
+1513874299555	Marionette	INFO	Listening on port 63218
+1513874299948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513874299995	Marionette	DEBUG	Register listener.js for window 2147483649
+1513874300017	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513874300045	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513874300046	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513874300051	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:63151/"
+1513874300094	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:63151/"
+1513874557977	geckodriver	INFO	geckodriver 0.18.0
+1513874557981	geckodriver	INFO	Listening on 127.0.0.1:63277
+1513874558630	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1513874560783	Marionette	INFO	Enabled via --marionette
+1513874563135	Marionette	INFO	Listening on port 63281
+1513874563565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513874563613	Marionette	DEBUG	Register listener.js for window 2147483649
+1513874563635	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513874563676	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513874563677	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513874563682	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:63276/"
+1513874563726	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:63276/"
+1513874565417	geckodriver	INFO	geckodriver 0.18.0
+1513874565420	geckodriver	INFO	Listening on 127.0.0.1:63333
+1513874566082	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1513874568253	Marionette	INFO	Enabled via --marionette
+1513874570586	Marionette	INFO	Listening on port 63337
+1513874571018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513874571066	Marionette	DEBUG	Register listener.js for window 2147483649
+1513874571088	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513874571114	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513874571115	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513874571121	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:63276/"
+1513874571164	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:63276/"
+1513874572184	geckodriver	INFO	geckodriver 0.18.0
+1513874572187	geckodriver	INFO	Listening on 127.0.0.1:63370
+1513874572842	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1513874575038	Marionette	INFO	Enabled via --marionette
+1513874577429	Marionette	INFO	Listening on port 63374
+1513874577789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513874577841	Marionette	DEBUG	Register listener.js for window 2147483649
+1513874577862	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513874577890	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513874577890	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513874577895	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:63276/"
+1513874577937	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:63276/"
