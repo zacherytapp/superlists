@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.db import models
 
 from lists.models import Item
 
