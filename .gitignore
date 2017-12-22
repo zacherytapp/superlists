@@ -3,3 +3,4 @@ geckdriver.log
 __pycache__
 *.pyc
 geckodriver.log
+./static
