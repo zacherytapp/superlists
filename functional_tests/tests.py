@@ -13,10 +13,10 @@ class NewVisitorTest(LiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
-    
+
     def tearDown(self):
         self.browser.quit()
-    
+
     def wait_for_row_in_list_table(self, row_text):
         start_time = time.time()
         while True:
@@ -39,7 +39,7 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertIn('To-Do', self.browser.title)
         header_text = self.browser.find_element_by_tag_name('h1').text
         self.assertIn('To-Do', header_text)
-    
+
         # She is invited to enter a to-do item straight away
         inputbox = self.browser.find_element_by_id('id_new_item')
         self.assertEqual(
@@ -73,8 +73,7 @@ class NewVisitorTest(LiveServerTestCase):
         # She visits that URL - her to-do list is still there.
 
         # Satisfied, she goes back to sleep
-        self.fail('Finish the test!')
-    
+
     def test_multiple_users_can_start_lists_at_different_urls(self):
 
         self.browser.get(self.live_server_url)
@@ -118,5 +117,3 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertIn('Buy milk', page_text)
 
         # Satisfied, they both go back to sleep
-
-
