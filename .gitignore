@@ -2,6 +2,5 @@ db.sqlite3
 geckdriver.log
 __pycache__
 *.pyc
-geckodriver.log
+*.log
 ./static
-geckodriver.log
