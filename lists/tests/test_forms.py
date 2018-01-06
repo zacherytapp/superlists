@@ -5,7 +5,7 @@ from lists.forms import ItemForm, EMPTY_ITEM_ERROR
 
 class ItemFormTest(TestCase):
 
-    def test_form_renders_item_text_input(self):
+    def test_form_renders_text_input(self):
         form = ItemForm()
 
     def test_form_tem_input_has_placeholder_and_css_classes(self):
