@@ -14,7 +14,7 @@ def _get_latest_source():
 
 def _update_settings(site_name):
     settings_path = 'superlists/settings.py'
-    sed(settings_path, "DEBUG = TRUE", "DEBUG = False")
+    sed(settings_path, "DEBUG = True", "DEBUG = False")
     sed(settings_path,
         'ALLOWED_HOSTS =.+$',
         'ALLOWED_HOSTS = ["%s"]' % site_name
