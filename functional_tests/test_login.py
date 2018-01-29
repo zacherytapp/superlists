@@ -23,7 +23,7 @@ class LoginTest(FunctionalTest):
         inbox = poplib.POP3_SSL('pop.mail.yahoo.com')
         try:
             inbox.user(test_email)
-            inbox.pass_(os.environ['YAHOO_PASSWORD'])
+            inbox.pass_(os.environ.get('YAHOO_PASSWORD'))
             while time.time() - start < 60:
                 # get 10 newest messages
                 count, _ = inbox.stat()
@@ -41,7 +41,7 @@ class LoginTest(FunctionalTest):
             if email_id:
                 inbox.dele(email_id)
             inbox.quit()
-    
+
     def test_can_get_email_link_to_log_in(self):
         # Edith goes to the awesome superlists site
         # and notices a "Log in" section in the navbar for the first time
