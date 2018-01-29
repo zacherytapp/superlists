@@ -8,7 +8,7 @@ from django.contrib import auth, messages
 from django.shortcuts import render, redirect
 from django.core.urlresolvers import reverse
 
-from accounts.models import Token
+from accounts.models import Token, User
 
 def send_login_email(request):
     email = request.POST['email']
