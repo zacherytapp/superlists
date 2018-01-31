@@ -11,6 +11,7 @@ from .base import FunctionalTest
 SUBJECT = 'Your login link for Superlists'
 
 class LoginTest(FunctionalTest):
+
     def wait_for_email(self, test_email, subject):
         if not self.staging_server:
             email = mail.outbox[0]
@@ -23,7 +24,7 @@ class LoginTest(FunctionalTest):
         inbox = poplib.POP3_SSL('pop.mail.yahoo.com')
         try:
             inbox.user(test_email)
-            inbox.pass_(os.environ.get('YAHOO_PASSWORD'))
+            inbox.pass_(os.environ['YAHOO_PASSWORD'])
             while time.time() - start < 60:
                 # get 10 newest messages
                 count, _ = inbox.stat()

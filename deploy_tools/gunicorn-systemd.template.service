@@ -5,6 +5,9 @@ Description=Gunicorn server for SITENAME
 Restart=on-failure
 User=zacherytapp
 WorkingDirectory=/home/zacherytapp/sites/SITENAME
+
+EnvironmentFile=/home/zacherytapp/sites/SITENAME/.env
+
 ExecStart=/home/zacherytapp/sites/SITENAME/virtualenv/bin/gunicorn \
     --bind unix:/tmp/SITENAME.socket \
     superlists.wsgi:application

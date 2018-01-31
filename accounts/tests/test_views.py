@@ -37,7 +37,7 @@ class SendLoginEmailViewTest(TestCase):
         self.assertTrue(self.send_mail_called, True)
         (subject, body, from_email, to_list), kwargs = mock_send_mail.call_args
         self.assertEqual(self.subject, 'Your login link for Superlists')
-        self.assertEqual(self.from_email, 'noreply@superlists')
+        self.assertEqual(self.from_email, 'zacherytapp.test@yahoo.com')
         self.assertEqual(self.to_list, ['edith@example.com'])
 
     @patch('accounts.views.messages')
