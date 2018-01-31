@@ -29,7 +29,7 @@ class FunctionalTest(StaticLiveServerTestCase):
     def _test_has_failed(self):
         return any(error for (method, error) in self._outcome.errors)
 
-     def take_screenshot(self):
+    def take_screenshot(self):
         filename = self._get_filename() + '.png'
         print('screenshotting to', filename)
         self.browser.get_screenshot_as_file(filename)
