@@ -33,7 +33,7 @@ class LoginTest(FunctionalTest):
                     _, lines, __ = inbox.retr(i)
                     lines = [l.decode('utf8') for l in lines]
                     print(lines)
-                    if f'Subject: {subject}' in lines:
+                    if 'Subject: %s' % subject in lines:
                         email_id = i
                         body = '\n'.join(lines)
                         return body
@@ -68,7 +68,7 @@ class LoginTest(FunctionalTest):
         self.assertIn('Use this link to log in', body)
         url_search = re.search(r'http://.+/.+$', body)
         if not url_search:
-            self.fail(f'Could not find url in email body:\n{body}')
+            self.fail('Could not find url in email body:\n%s' % body)
         url = url_search.group(0)
         self.assertIn(self.live_server_url, url)
 
